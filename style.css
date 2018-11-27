@@ -1,6 +1,8 @@
 body{
   background-color: #E3A186;
+  text-align:center;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
