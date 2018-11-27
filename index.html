@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
 
-  <nav>
-  <ul>
-    <li><a class="active" href="index.html">My Classes</a></li>
-    <li><a href="news.html">News</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="about.html">About</a></li>
-  </ul>
-</nav>
+  <body>
+    <div id="nav-placeholder">
+    </div>
 
-<body>
-</body>
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("nav.html");
+  });
+  </script>
+  </body>
 </html>
