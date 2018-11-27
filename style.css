@@ -1,9 +1,12 @@
+body{
+  background-color: #E3A186;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #3C2C26;
 }
 
 li {
@@ -14,7 +17,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 1.2rem 2rem;
     text-decoration: none;
 }
 
@@ -23,5 +26,9 @@ li a:hover:not(.active) {
 }
 
 .active {
+<<<<<<< HEAD
     background-color: #ecc10f;
+=======
+    background-color: #9C4A29;
+>>>>>>> 8cd983b847ccc403e0cd64dea176061bd40a4d3c
 }
