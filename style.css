@@ -1,5 +1,5 @@
 body{
-  background-color: #E3A186;
+  background-color: #86c8e3;
   text-align:center;
 }
 
@@ -28,9 +28,5 @@ li a:hover:not(.active) {
 }
 
 .active {
-<<<<<<< HEAD
-    background-color: #ecc10f;
-=======
     background-color: #9C4A29;
->>>>>>> 8cd983b847ccc403e0cd64dea176061bd40a4d3c
 }
