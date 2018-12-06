@@ -87,3 +87,12 @@ li a:hover:not(.active) {
 .btn-group button:hover {
     background-color: #3e8e41;
 }
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
