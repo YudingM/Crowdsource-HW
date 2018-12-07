@@ -18,12 +18,44 @@
 
   </script>
   <div class="btn-group">
-    <button>Math</button>
+    <div class="dropdown">
+      <div align="left">
+      <button onclick="myFunction()" class="dropbtn">Math</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#9th Grade">9th Grade</a>
+        <a href="#10th Grade">10th Grade</a>
+        <a href="#11th Grade">11th Grade</a>
+        <a href="#12th Grade">12th Grade</a>
+      </div>
+    </div>
+    </div>
     <button>Science</button>
     <button>Language</button>
     <button>History</button>
     <button>English</button>
     <button>Elective</button>
   </div>
+  <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
   </body>
 </html>
