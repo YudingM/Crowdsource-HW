@@ -65,8 +65,8 @@ li a:hover:not(.active) {
 }
 .btn-group button {
     background-color: #ffa500; /* Green background */
-    border: 1px solid green; /* Green border */
-    color: black; /* White text */
+    border: 1px solid black; /* black border */
+    color: black; /* black text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
@@ -90,7 +90,7 @@ li a:hover:not(.active) {
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #3e8e41;
+    background-color: #111;
     color: white;
     padding: 16px;
     font-size: 16px;
